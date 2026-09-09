@@ -10,7 +10,7 @@ Notebook ini adalah bagian dari proyek klasifikasi gambar menggunakan deep learn
 * **ID Dicoding:** desssti06
 
 ## 📁 Deskripsi Proyek
-
+![Preview Dashboard](animalclasification.png)
 Proyek ini bertujuan untuk membangun sistem klasifikasi otomatis yang mampu mengenali berbagai jenis **hewan** dari citra gambar menggunakan teknik deep learning. Dataset diperoleh dari Kaggle (`nicopalv/dataset-klasifikasi-gambar-hewan`) dan diproses menggunakan TensorFlow dan Keras.
 
 📦 Dataset
@@ -79,6 +79,7 @@ Dashboard membaca model dari `saved_model/1`. Model yang saat ini tersimpan adal
 MobileNet pretrained dengan 1.000 label ImageNet. Agar dashboard menghasilkan tiga
 kelas `Tigers`, `Dogs`, dan `Cats`, simpan model klasifikasi hasil training sebelum
 menjalankan ekspor SavedModel.
+
 
 ## 📊 Output
 
