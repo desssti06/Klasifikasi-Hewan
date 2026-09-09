@@ -67,6 +67,19 @@ Sumber:  https://www.kaggle.com/datasets/nicopalv/dataset-klasifikasi-gambar-hew
 2. Pastikan library telah terinstal
 3. Jalankan setiap cell dari atas ke bawah.
 
+### Dashboard Streamlit
+
+Jalankan dari folder utama proyek:
+
+```bash
+streamlit run app.py
+```
+
+Dashboard membaca model dari `saved_model/1`. Model yang saat ini tersimpan adalah
+MobileNet pretrained dengan 1.000 label ImageNet. Agar dashboard menghasilkan tiga
+kelas `Tigers`, `Dogs`, dan `Cats`, simpan model klasifikasi hasil training sebelum
+menjalankan ekspor SavedModel.
+
 ## 📊 Output
 
 * Model CNN untuk klasifikasi gambar hewan.
